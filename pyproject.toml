@@ -1,0 +1,22 @@
+[project]
+name = "recurrence-matrix-analysis"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "weijithw2022",email = "weijithwimalasiri2020@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "numpy (>=2.3.2,<3.0.0)",
+    "tqdm (>=4.67.1,<5.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.30.1"
+
